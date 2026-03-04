@@ -1,0 +1,181 @@
+
+    /*Importa fonte moderna*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Poopins:wght@300;400;600&display=swap');
+
+
+    /*Remove margens do fundo*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /*Faz largura incluir padding e border*/
+    }
+
+    /*Estiliza o fundo do site*/
+    body {
+        font-family: 'Poppins', sans-serif; /*Defina a fonte*/
+        background: linear-gradient(135deg, #0f9b0f, #0575e6); /*Fundo degrade*/
+        /*Centraliza o conteiner e o card*/
+        height: 100vh; /*Altura total da tela*/
+        display: flex;  /*Centraliza a tela*/
+        justify-content: center; /*Horizontal*/
+        align-items: center; /*Vertical*/
+    }
+
+
+    /* Conteiner branco central*/
+    .card {
+        background: white;
+        width: 450px; /*Largura*/
+        padding: 40px; /*Espaçamento interno*/
+        border-radius: 20px; /*Bordas arredondadas*/
+        box-shadow: 0 150px 40px rgba(0,0,0,0.2); /*Sombras*/
+        text-align: left; 
+        margin-top: 80px; /*Tras o container para baixo*/
+        border: 3px solid black; /*Largura borda*/
+    }
+
+
+    .conteiner {
+        background: white;
+        width: 459px;
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0 150px 40px rgba(0,0,0,0.2);
+        text-align: center;
+        margin-top: 80px;
+        border: 3px solid black; /*Bordas*/
+    }
+
+    /*Titulo*/
+    h1 {
+        margin-bottom: 25px; /*Espaço abaixo do titulo*/
+        color: black;
+    }
+
+    /*Campo para entrada de dados*/
+    input {
+        width: 100%; /*Ocupa toda a largura do conteiner*/
+        padding: 12px;
+        margin-top: 10px; 
+        border-radius: 8px;
+        border: 1px solid black ;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .list {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 8px;
+        border: 1px solid black ;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .botoes {
+    text-align: center;
+    padding: 8px;
+    font-size: 60px;
+    }
+
+    .for {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 8px;
+        border: 1px solid black ;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 30px;
+    }
+
+    /*Estilo dos botoes*/
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn-green {
+        background-color: green;
+        color: white;
+    }
+
+    .btn-green:hover{
+        background: #163172;
+        transform: scale(1.03);
+    }
+
+    .btn-blue {
+        background-color: blue;
+        color:white;
+    }
+
+    .btn-blue:hover{
+        background: #2b7cbf;
+        transform: scale(1.03);
+    }
+
+    .btn-red {
+        background-color: gray;
+        color: white;
+        
+    }
+
+    .btn-red:hover{
+        background: black;
+        transform: scale(1.03);
+    }
+
+    hr {
+        margin-top: -20px;
+    }
+
+    .N {
+        margin-top: 30px;
+    }
+
+    h3 {
+        margin-top: 30px;
+    }
+
+    .Lista {
+        margin-top: 30px;
+
+    }
+
+    .Q {
+        margin-right: 60px; /*Texto vai para cima*/ 
+        margin-top: -85px;
+    }
+
+    .p {
+        margin-top: 60px;
+    }
+
+    .conteinerDois {
+        background: rgb(255, 255, 255);
+        width: 459px;
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0 150px 40px rgba(0,0,0,0.2);
+        text-align: center;
+        margin-top: 90px;
+        border: 3px solid black; /*Bordas*/
+    }
+
+
+
